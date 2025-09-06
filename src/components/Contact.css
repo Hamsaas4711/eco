@@ -1,0 +1,17 @@
+.contact-section {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Dark blue background */
+  text-align: center;
+  color: #121f29; /* White text */
+}
+
+.contact-section a {
+  color: #a46a0f; /* Gold links */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+  color: #f9c74f; /* Lighter gold on hover */
+}

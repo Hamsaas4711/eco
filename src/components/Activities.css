@@ -1,0 +1,30 @@
+.activities-section {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Dark Blue background */
+  text-align: center;
+  color: #121f29; /* White text */
+}
+
+.activity-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.activity-card {
+  background: whitesmoke; /* Slightly lighter dark blue for contrast */
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #a46a0f; /* Gold accent border */
+  color: #1f2e3f; /* Light text inside card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  background-color: whitesmoke; /* Slightly lighter on hover */
+}

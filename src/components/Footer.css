@@ -1,0 +1,19 @@
+.footer {
+  background: #f8f9fa; /* Dark Blue background */
+  color: #13111f; /* White text */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.95rem;
+  border-top: 2px solid #a46a0f; /* Gold accent line */
+}
+
+.footer a {
+  color: #a46a0f;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #f9c74f; /* Lighter gold on hover */
+}

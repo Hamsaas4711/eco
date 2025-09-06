@@ -1,0 +1,55 @@
+.team-section {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Dark blue background */
+  text-align: center;
+  color: #f9c74f; /* Light gold text for headings and content */
+}
+
+.team-section h2 {
+  color: #a46a0f; /* Gold heading */
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.team-member {
+  width: 200px;
+  text-align: center;
+  background-color: #ffffff; /* Slightly lighter dark blue for contrast */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(164, 106, 15, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(164, 106, 15, 0.6);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #a46a0f; /* Gold border around the photos */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.team-member h3 {
+  margin-top: 12px;
+  color: #f9c74f; /* Light gold for names */
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.team-member p {
+  color: #d4af37; /* Soft gold for roles or descriptions */
+  font-size: 0.9rem;
+  margin-top: 6px;
+}

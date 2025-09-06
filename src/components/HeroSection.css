@@ -1,0 +1,40 @@
+.hero {
+  background: url("/images/nature-banner.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f9c74f; /* Light Gold text */
+  background-color: #ffffff; /* Fallback dark blue */
+  position: relative;
+}
+
+.hero p {
+  color: #a46a0f; /* Gold paragraph text */
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  background-color: #a46a0f; /* Gold button */
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(164, 106, 15, 0.6);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  color: #121f29;
+  background-color: #f9c74f; /* Lighter gold on hover */
+  box-shadow: 0 6px 15px rgba(249, 199, 79, 0.8);
+}

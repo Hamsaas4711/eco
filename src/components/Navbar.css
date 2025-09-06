@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  background-color: #ffffff; /* Dark Blue */
+  color: rgb(33, 48, 75);
+  font-size: 0.9rem;
+  height: 60px;
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid #a46a0f; /* Gold bottom border */
+}
+
+.logo {
+  color: #a46a0f; /* Gold logo text */
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin: 0;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo .icon {
+  font-size: 1.5rem;
+  color: #a46a0f; /* Gold icon */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a,
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a:active {
+  color: rgb(30, 30, 75);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #a46a0f; /* Gold hover */
+  color: #121f29; /* Contrast text on hover */
+}

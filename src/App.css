@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #f9c74f; /* Light gold text for general content */
+  background-color: #f7f7f7; /* Dark blue background for contrast */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(0 0 4px #a46a0faa); /* Soft gold glow */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 3em #a46a0faa); /* Stronger gold glow on hover */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(
+    0 0 3em #f9c74faa
+  ); /* Lighter gold glow on React logo hover */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: #1e2c3a; /* Slightly lighter dark blue card bg */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(164, 106, 15, 0.3);
+  color: #f9c74f; /* Light gold text inside cards */
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(164, 106, 15, 0.6);
+}
+
+.read-the-docs {
+  color: #a46a0f; /* Gold for subtle links or info */
+  font-weight: 600;
+}
