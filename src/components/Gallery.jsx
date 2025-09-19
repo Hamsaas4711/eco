@@ -1,6 +1,9 @@
+import React, { useState } from "react";
 import "./Gallery.css";
 
 function Gallery() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const images = [
     "/eco-2.jpg",
     "/eco.jpg",
@@ -20,9 +23,18 @@ function Gallery() {
             src={img}
             alt={`Eco Event ${idx + 1}`}
             className="gallery-img"
+            onClick={() => setSelectedImage(img)} // 👈 set clicked image
           />
         ))}
       </div>
+
+      {/* Lightbox Overlay */}
+      {selectedImage && (
+        <div className="lightbox" onClick={() => setSelectedImage(null)}>
+          <span className="lightbox-close">&times;</span>
+          <img src={selectedImage} alt="Enlarged" className="lightbox-img" />
+        </div>
+      )}
     </section>
   );
 }
