@@ -2,12 +2,12 @@ import "./Gallery.css";
 
 function Gallery() {
   const images = [
-    "/public/ECO (2).jpg",
-    "/public/ECO.jpg",
-    "/public/ECO (3).jpg",
-    "/public/ECO (4).jpg",
-    "/public/ECO (5).jpg",
-    "/public/ECO (6).jpg",
+    "/ECO (2).jpg",
+    "/ECO.jpg",
+    "/ECO (3).jpg",
+    "/ECO (4).jpg",
+    "/ECO (5).jpg",
+    "/ECO (6).jpg",
   ];
 
   return (
